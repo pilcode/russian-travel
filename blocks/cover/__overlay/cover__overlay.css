@@ -8,11 +8,11 @@
     flex-direction: column;
     color: #FFFFFF;
     text-decoration: none;
-    transition: background-color 0.25s ;
+    transition: background-color 0.25s;
 }
 
 .cover__overlay:hover {
-    background-color: rgba(42, 44, 47, 0.8)
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 /*Для экранов с расширением 1024-1279*/
