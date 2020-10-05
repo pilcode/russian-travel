@@ -1,0 +1,19 @@
+.header__links-list {
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    padding: 18px 0 6px 0;
+}
+
+/*Для экранов с расширением 320-767*/
+@media screen and (max-width: 767px) {
+    .header__links-list{
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}

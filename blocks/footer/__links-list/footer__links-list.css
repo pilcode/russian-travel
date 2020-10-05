@@ -1,0 +1,18 @@
+.footer__links-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*Для экранов с расширением 320-767*/
+@media screen and (max-width: 767px) {
+    .footer__links-list {
+        flex-direction: column;        
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 48px;
+    }
+}

@@ -1,0 +1,29 @@
+.lead {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 66px 148px 0;
+    
+}
+
+/*Для экранов с расширением 1024-1279*/
+@media screen and (max-width: 1279px) {
+    .lead {
+        padding: 58px 48px 0;
+    }
+}
+
+/*Для экранов с расширением 768-1023*/
+@media screen and (max-width: 1023px) {
+    .lead {
+        padding: 56px 0 0;
+    }
+}
+
+/*Для экранов с расширением 320-767*/
+@media screen and (max-width: 320px) {
+    .lead {
+        padding: 50px 0 0;
+    }
+}

@@ -1,0 +1,36 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+    padding: 0 0 80px;
+}
+
+.place:last-of-type {
+    padding: 0;
+}
+
+/*Для экранов с расширением 1024-1280*/
+@media screen and (max-width: 1279px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+}
+
+/*Для экранов с расширением 768-1023*/
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+        padding: 0 0 72px;
+    }
+}
+
+/*Для экранов с расширением 320-767*/
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 0 0 48px;
+    }
+}

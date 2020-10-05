@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 28px 48px 0;
+}
+
+/*Для экранов с расширением 768-1023*/
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+/*Для экранов с расширением 320-767*/
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 0;
+    }
+}
