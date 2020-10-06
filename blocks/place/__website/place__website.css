@@ -1,5 +1,9 @@
 .place__website {
     align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /*Для экранов с расширением 320-767*/
